@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<body background="galaxy.jpg"> <!-- adding background image to the entire webpage -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Solar System  b</title>
+        <style>
+            body {
+                background-color: #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .sun {
+                width: 270px;
+                height: 270px;
+                background: radial-gradient(circle, #ffdb58, transparent);
+                border-radius: 50%;
+                position: relative;
+            }
+    
+            .image-container {
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: translate(-50%, -50%);
+            }
+    
+            .image {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                position: absolute;
+            }
+    
+            .image:nth-child(1) {
+                top: -30%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 120px; 
+                height: 120px; 
+                background: url(earth.jpg) center/cover;
+
+            }
+    
+            .image:nth-child(2) {
+                top: -30%;
+                left: 120%;
+                background: url(mars.jpg) center/cover;
+            }
+    
+            .image:nth-child(3) {
+                top: 10%;
+                left: 250%;
+                width: 220px; 
+                height: 220px; 
+                transform: translateX(-50%);
+                background: url(jupiter.jpg) center/cover;
+            }
+    
+            .image:nth-child(4) {
+                top: 90%;
+                left: 200%;
+                width: 600px; 
+                height: 700px; 
+                background: url(saturn.png) center/cover;
+            }
+    
+            .image:nth-child(5) {
+                top: 90%;
+                left: 350%;
+                width: 200px; 
+                height: 200px; 
+                transform: translateX(-50%);
+                background: url(uranus.png) center/cover;
+            }
+    
+            .image:nth-child(6) {
+                top: 200%;
+                left: -180%;
+                width: 170px; 
+                height: 170px; 
+                background: url(neptune.png) center/cover;
+            }
+    
+            .image:nth-child(7) {
+                top: 50%;
+                left: 45%;
+                transform: translateX(-50%);
+                background: url(mercury.png) center/cover;
+            }
+    
+            .image:nth-child(8) {
+                top: 80%;
+                left: -20%;
+                width: 110px; 
+                height: 110px; 
+                background: url(venus.png) center/cover;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="sun">
+            <div class="image-container">
+                <div class="image"></div>
+                <div class="image"></div>
+                <div class="image"></div>
+                <div class="image"></div>
+                <div class="image"></div>
+                <div class="image"></div>
+                <div class="image"></div>
+                <div class="image"></div>
+            </div>
+        </div>
+    </body>
+    </html>
+    <!DOCTYPE html>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>links</title>
+    <style>
+        .link {
+            position: absolute;
+            color: white;
+        }
+
+        .link1 { top: 68px; left: 608px; }
+        .link2 { top: 62px; left: 765px; }
+        .link3 { top: 160px; left: 1000px; }
+        .link4 { top: 542px; left: 1155px; }
+        .link5 { top: 326px; left: 1200px; }
+        .link6 { top: 542px; left: 220px; }
+        .link7 { top: 223px; left: 585px; }
+        .link8 { top: 288px; left: 517px; }
+    </style>
+</head>
+<body>
+    <a class="link link1" href="file:///Users/meodo04/earth.html" target="_blank">earth</a>
+    <a class="link link2" href="file:///Users/meodo04/mars.html" target="_blank">mars</a>
+    <a class="link link3" href="file:///Users/meodo04/jupiter.html" target="_blank">jupiter</a>
+    <a class="link link4" href="file:///Users/meodo04/saturn.html" target="_blank">saturn</a>
+    <a class="link link5" href="file:///Users/meodo04/uranus.html" target="_blank">uranus</a>
+    <a class="link link6" href="file:///Users/meodo04/neptune.html" target="_blank">neptune</a>
+    <a class="link link7" href="file:///Users/meodo04/mercury.html" target="_blank">mercury</a>
+    <a class="link link8" href="file:///Users/meodo04/venus.html" target="_blank">venus</a>
+</body>
+</html>
